@@ -1,0 +1,103 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling for the body */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Light background to give the app a clean feel */
+    color: #333; /* Dark grey for text color */
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Headings */
+  h1, h2, h3 {
+    color: #2c3e50; /* Dark blue-grey color */
+    margin-bottom: 1rem;
+  }
+  
+  /* Links */
+  a {
+    text-decoration: none;
+    color: #5cb85c; /* Green for links */
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #4cae4c;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
+  
+  /* Input Fields */
+  input, select, textarea {
+    font-family: inherit;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Forms */
+  form {
+    margin: 20px auto;
+    max-width: 500px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  /* Basic container class for centering content */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+  
+  /* Add basic padding to sections */
+  .section {
+    padding: 40px 0;
+  }
+  
+  /* For dashboard layout */
+  .dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .mood-entry-form, .mood-history-graph {
+    margin: 20px 0;
+    width: 100%;
+    max-width: 500px;
+  }
+  
